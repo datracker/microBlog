@@ -1,0 +1,341 @@
+2017-10-18 21:37:43,379 INFO: microblog startup [in /Users/tanvirahmed/Desktop/microBlog/app/__init__.py:38]
+2017-10-18 21:38:17,300 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:38:22,321 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:38:27,338 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:38:32,354 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:38:37,372 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:38:42,391 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:39:02,692 INFO: microblog startup [in /Users/tanvirahmed/Desktop/microBlog/app/__init__.py:38]
+2017-10-18 21:40:02,396 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:40:55,334 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:00,352 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:05,366 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:10,383 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:15,399 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:20,414 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:41:25,433 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    user = User.query.filter_by(nickname=self.nickname.data).first()
+NameError: global name 'User' is not defined
+2017-10-18 21:42:04,375 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    return True
+NameError: global name 'User' is not defined
+2017-10-18 21:42:09,393 ERROR: Exception on /edit [POST] [in /Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/tanvirahmed/Desktop/microBlog/app/views.py", line 121, in edit
+    if form.validate_on_submit():
+  File "/Users/tanvirahmed/Desktop/microBlog/flask/lib/python2.7/site-packages/flask_wtf/form.py", line 101, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Users/tanvirahmed/Desktop/microBlog/app/forms.py", line 22, in validate
+    return True
+NameError: global name 'User' is not defined
+2017-10-18 21:42:17,772 INFO: microblog startup [in /Users/tanvirahmed/Desktop/microBlog/app/__init__.py:38]
+2017-10-18 21:57:15,988 INFO: microblog startup [in /Users/tanvirahmed/Desktop/microBlog/app/__init__.py:38]
+2017-10-23 23:40:17,184 INFO: microblog startup [in /Users/tanvirahmed/Desktop/microBlog/app/__init__.py:38]
